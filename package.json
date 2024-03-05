@@ -1,0 +1,16 @@
+{
+	"name": "bold",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sass": "node-sass scss/main.scss css/main.css --output-style compressed --source-map true --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^9.0.0"
+	}
+}
